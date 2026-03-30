@@ -112,6 +112,26 @@ OpenAI ana entegrasyon olarak desteklenir. API anahtarı verilmezse sistem rule-
 - Öncelik dağılımı
 - Duygu dağılımı
 
+## Ekran Görüntüleri
+
+### Giriş Ekranı
+
+Kullanıcılar müşteri veya temsilci rolüyle hızlıca giriş yapabilir.
+
+![SupportIQ giriş ekranı](docs/screenshots/login-page.png)
+
+### Analitik Ekranı
+
+Temsilci tarafı için kategori, öncelik ve duygu dağılımını sade bir görünümle sunar.
+
+![SupportIQ analitik ekranı](docs/screenshots/analytics-page.png)
+
+### AI Insights Paneli
+
+Ticket detayında yapay zeka özeti, öncelik, kategori, güven skoru, önerilen yanıt ve karar gerekçesi görünür şekilde sunulur.
+
+![SupportIQ AI Insights paneli](docs/screenshots/ai-insights-panel.png)
+
 ## Teknoloji Yığını
 
 - FastAPI
