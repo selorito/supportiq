@@ -161,22 +161,6 @@ cp .env.example .env
 
 Bu alanlar boş kalırsa sistem fallback analiz ile çalışır.
 
-## Uygulamayı Çalıştırma
-
-### Docker Compose v1
-
-```bash
-cd /home/selmandev/Desktop/Kapsül/supportiq
-docker-compose up -d --build
-```
-
-### Docker Compose v2
-
-```bash
-cd /home/selmandev/Desktop/Kapsül/supportiq
-docker compose up -d --build
-```
-
 ## Erişim Adresleri
 
 - Frontend: `http://localhost:5173`
@@ -217,7 +201,3 @@ docker compose up -d --build
 - Kimlik doğrulama mock kullanıcılar ile çalışır.
 - Sistem canlı güncelleme için WebSocket kullanır.
 - Worker servisi kapalıysa ticket oluşur ama AI analizi gecikir.
-
-## GitHub'a Yükleme
-
-Bu repo GitHub'a yüklenmeye hazırdır. `.env`, `node_modules`, `dist` ve geçici geliştirme dosyaları `.gitignore` ile dışarıda tutulur.
