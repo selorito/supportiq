@@ -1,0 +1,16 @@
+[project]
+name = "supportiq-common"
+version = "0.1.0"
+description = "Shared models and AI utilities for SupportIQ"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.6,<3.0",
+  "openai>=1.30.0,<2.0.0",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
